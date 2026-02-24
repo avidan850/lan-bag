@@ -1,0 +1,24 @@
+{
+  "name": "lan-bag",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon --exec ts-node src/server.ts",
+    "start": "ts-node src/server.ts",
+    "build": "echo 'No build step required for Netlify'"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "lucide-react": "^0.575.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^20.19.33",
+    "@vitejs/plugin-react": "^5.1.4",
+    "eslint": "^8",
+    "nodemon": "^3.1.14",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1"
+  }
+}
